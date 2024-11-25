@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dashboards-project"
+version = "0.1.0"
+description = ""
+authors = ["Eric Rafael <rafaelpsec@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+streamlit = "^1.40.1"
+plotly = "^5.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
