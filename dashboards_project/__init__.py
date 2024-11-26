@@ -4,12 +4,12 @@ import streamlit as st
 import nbformat
 
 #config AppWeb layout
-
+datinha = "data"
 st.set_page_config(layout="wide")
 
 #loading files to read
 #dashboards_project\dashboards_project\supermarket_sales.csv
-df = pd.read_csv("supermarket_sales.csv", sep=";", decimal=",")
+df = pd.read_csv("..\data\supermarket_sales.csv", sep=";", decimal=",")
 
 #converting "date" to library understand and organize
 df["Date"] = pd.to_datetime(df["Date"])
