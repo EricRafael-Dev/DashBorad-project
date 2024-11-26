@@ -8,6 +8,7 @@ import nbformat
 st.set_page_config(layout="wide")
 
 #loading files to read
+
 df = pd.read_csv("supermarket_sales.csv", sep=";", decimal=",")
 
 #converting "date" to library understand and organize
