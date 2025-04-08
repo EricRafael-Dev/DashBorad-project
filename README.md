@@ -9,10 +9,6 @@
     <b>Simple estructure of DashBoard, data analysis using CSV with possible changes on future.</b>
 </p>
 
-<p align="center">
-     <a href="https://dashboards-py.streamlit.app">📱 Visit this Project</a>
-</p>
-
 
 <h2 id="technologies">💻 Technologies</h2>
 
